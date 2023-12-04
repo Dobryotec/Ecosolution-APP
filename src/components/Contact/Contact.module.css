@@ -1,0 +1,116 @@
+.section-contact {
+  padding-top: 110px;
+  padding-bottom: 36px;
+
+  @media screen and (min-width: 767px) {
+    padding-top: 127px;
+    padding-bottom: 100px;
+  }
+
+  @media screen and (min-width: 1279px) {
+    padding-bottom: 120px;
+  }
+}
+
+.title {
+  color: #173d33;
+  font-family: Oswald;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 767px) {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1279px) {
+    font-size: 48px;
+    margin-bottom: 120px;
+  }
+}
+.contact-container {
+  @media screen and (min-width: 767px) {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 140px;
+  }
+
+  @media screen and (min-width: 1279px) {
+    column-gap: 178px;
+  }
+}
+.address {
+  font-style: normal;
+  min-width: 244px;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @media screen and (min-width: 1279px) {
+    gap: 32px;
+  }
+}
+.text {
+  color: #173d33;
+  margin-bottom: 8px;
+
+  @media screen and (min-width: 1279px) {
+    margin-bottom: 16px;
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+
+  > svg {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: #173d33;
+    margin-right: 8px;
+    transition: all 0.5s ease;
+  }
+}
+
+.contact:hover svg,
+.contact:hover link {
+  color: #97d28b;
+}
+
+.link {
+  color: #173d33;
+  font-size: 20px;
+
+  @media screen and (min-width: 1279px) {
+    font-size: 24px;
+  }
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 12px;
+
+  @media screen and (min-width: 1279px) {
+    padding: 0;
+    gap: 8px;
+  }
+}
+
+.social-link {
+  > svg {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+
+    transition: all 0.5s ease;
+  }
+
+  > svg:hover {
+    color: #97d28b;
+  }
+}

@@ -1,0 +1,73 @@
+.title {
+  color: #173d33;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 28px;
+  text-transform: uppercase;
+  max-width: 286px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 767px) {
+    font-size: 36px;
+    max-width: 368px;
+  }
+
+  @media screen and (min-width: 1279px) {
+    font-size: 48px;
+    max-width: 491px;
+  }
+}
+.title::after {
+  content: url(../../assets/line.svg);
+  margin: 24px auto;
+  display: block;
+  width: 1px;
+  height: 48px;
+  color: #97d28b;
+
+  @media screen and (min-width: 1279px) {
+    margin: 16px auto;
+  }
+}
+
+.counter {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #97d28b;
+
+  @media screen and (min-width: 767px) {
+    font-size: 100px;
+  }
+
+  @media screen and (min-width: 1279px) {
+    font-size: 164px;
+  }
+}
+.units {
+  color: #173d33;
+  text-align: center;
+  font-size: 24px;
+
+  @media screen and (min-width: 767px) {
+    font-size: 28px;
+    line-height: 1.71;
+  }
+
+  @media screen and (min-width: 1279px) {
+    font-size: 48px;
+  }
+}
+
+.text {
+  font-family: Oswald;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+
+  @media screen and (min-width: 767px) {
+    column-gap: 24px;
+  }
+}
